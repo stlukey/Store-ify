@@ -1,0 +1,6 @@
+[submodule "store.py"]
+	path = store.py
+	url = git@github.com:o4dev/store.py.git
+[submodule "store.js"]
+	path = store.js
+	url = git@github.com:o4dev/store.js.git
