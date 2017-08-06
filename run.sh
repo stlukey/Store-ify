@@ -2,7 +2,7 @@
 
 cd `dirname $(readlink -f $0)`
 
-exec 3< <(store.py/run.sh 2>&1)
+exec 3< <(make -C store.py 2>&1)
 sed '/quit)$/q' <&3 ; cat <&3 &
 
 export NVM_DIR="$HOME/.nvm"
