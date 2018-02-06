@@ -1,6 +1,8 @@
 [submodule "store.py"]
 	path = store.py
 	url = git@github.com:o4dev/store.py.git
+	ignore = dirty
 [submodule "store.js"]
 	path = store.js
 	url = git@github.com:o4dev/store.js.git
+	ignore = dirty
