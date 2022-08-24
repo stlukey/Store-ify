@@ -2,6 +2,8 @@
 A web store framework with a React.js interface and Python API.
 
 ## Usage
-To setup the server first install `requirements.py` and then run `main.py` inside the `store.py` folder.
+First ensure git submodules are also correctly cloned.
 
-To setup the front end install the requrements using `yarn` or `npm` then just run the start scripts, this is in the `store.js` folder.
+To setup the server first install `mongodb` followed by `requirements.py` to a virtualenv located at `store.py/.env` and then run `make api` inside the `store.py` folder.
+
+To setup the front end install the requirements using `yarn` or `npm install` then run the start scripts, this is in the `store.js` folder.
